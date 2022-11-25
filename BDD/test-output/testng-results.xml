@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-07T06:42:47 UTC" name="Default suite" finished-at="2022-04-07T06:43:32 UTC" duration-ms="44869">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:inTrustRunner.RunnerTest@69997e9d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-04-07T06:42:47 UTC" name="Default test" finished-at="2022-04-07T06:43:32 UTC" duration-ms="44869">
+      <class name="inTrustRunner.RunnerTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:inTrustRunner.RunnerTest@69997e9d]" started-at="2022-04-07T06:42:47 UTC" name="setUpClass" finished-at="2022-04-07T06:42:48 UTC" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:inTrustRunner.RunnerTest@69997e9d]" started-at="2022-04-07T06:42:48 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-07T06:43:32 UTC" duration-ms="43602" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create windows collection using Domain with installing agent in InTrust Deployment Manager"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Coverage of InTrust Deployment Manager Test Cases]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vjlabintr01', ip: '10.0.0.5', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: C:\Program Files (x86)\Ques..., javascriptEnabled: true, ms:waitForAppLaunch: 25, platform: WINDOWS, platformName: Windows}
+Session ID: 2FA98DDE-9379-4254-89E0-6BE0D4E86BBF
+*** Element info: {Using=accessibility id, value=PickDomains}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vjlabintr01', ip: '10.0.0.5', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: C:\Program Files (x86)\Ques..., javascriptEnabled: true, ms:waitForAppLaunch: 25, platform: WINDOWS, platformName: Windows}
+Session ID: 2FA98DDE-9379-4254-89E0-6BE0D4E86BBF
+*** Element info: {Using=accessibility id, value=PickDomains}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.windows.WindowsDriver.findElement(WindowsDriver.java:1)
+at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+at inTrustStepDefination.InTrustDeploymentManagerSteps.User_Select_Domain(InTrustDeploymentManagerSteps.java:364)
+at ✽.User Select Domain by clicking on Add then Domain and Select Domains(file:///C:/Users/vjadmin/Documents/BDD/src/test/java/features/InTrustDeploymentManager.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:inTrustRunner.RunnerTest@69997e9d]" started-at="2022-04-07T06:43:32 UTC" name="tearDownClass" finished-at="2022-04-07T06:43:32 UTC" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- inTrustRunner.RunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,141 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-07T06:42:48.997Z",
+        "before": [
+          {
+            "result": {
+              "duration": 284005100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.setUpFile(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Create windows collection using Domain with installing agent in InTrust Deployment Manager",
+        "description": "",
+        "id": "coverage-of-intrust-deployment-manager-test-cases;create-windows-collection-using-domain-with-installing-agent-in-intrust-deployment-manager;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5117445300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28811261300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Initialize \"IDM\" and User Open the InTrust Deployment Manager",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IDM",
+                  "offset": 12
+                }
+              ],
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.User_Open_InTrust_Deployement_Manager(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3983592100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Click on New button on top left corner to create the window collection with agent installed",
+            "match": {
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.User_Click_on_New_Button_to_create_window_collection_with_agent()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2952348500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Enter Name and Description and click Next",
+            "match": {
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.User_Enter_Name_and_Description()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027vjlabintr01\u0027, ip: \u002710.0.0.5\u0027, os.name: \u0027Windows Server 2019\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: io.appium.java_client.windows.WindowsDriver\nCapabilities {app: C:\\Program Files (x86)\\Ques..., javascriptEnabled: true, ms:waitForAppLaunch: 25, platform: WINDOWS, platformName: Windows}\nSession ID: 2FA98DDE-9379-4254-89E0-6BE0D4E86BBF\n*** Element info: {Using\u003daccessibility id, value\u003dPickDomains}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.windows.WindowsDriver.findElement(WindowsDriver.java:1)\r\n\tat io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)\r\n\tat inTrustStepDefination.InTrustDeploymentManagerSteps.User_Select_Domain(InTrustDeploymentManagerSteps.java:364)\r\n\tat ✽.User Select Domain by clicking on Add then Domain and Select Domains(file:///C:/Users/vjadmin/Documents/BDD/src/test/java/features/InTrustDeploymentManager.feature:10)\r\n",
+              "duration": 1973205200,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "User Select Domain by clicking on Add then Domain and Select Domains",
+            "match": {
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.User_Select_Domain()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002900,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User Select Data Source, Repository, Server and click Next",
+            "match": {
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.User_select_datasource_repo_and_server()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User Click on Finish button",
+            "match": {
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.User_click_on_finish_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User Click on the refresh button and wait to validate the Computer Status",
+            "match": {
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.User_click_on_refresh_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InTrustDeploymentManager01"
+          }
+        ]
+      }
+    ],
+    "name": "Coverage of InTrust Deployment Manager Test Cases",
+    "description": "",
+    "id": "coverage-of-intrust-deployment-manager-test-cases",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/InTrustDeploymentManager.feature",
+    "tags": []
+  }
+]

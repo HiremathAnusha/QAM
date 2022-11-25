@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-16T06:24:24.395Z",
+        "before": [
+          {
+            "result": {
+              "duration": 321004500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.setUpFile(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Create windows collection using Domain with installing agent in InTrust Deployment Manager",
+        "description": "",
+        "id": "coverage-of-intrust-deployment-manager-test-cases;create-windows-collection-using-domain-with-installing-agent-in-intrust-deployment-manager;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"io.appium.java_client.windows.WindowsDriver.quit()\" because \"inTrustStepDefination.InTrustDeploymentManagerSteps.driver\" is null\r\n\tat inTrustStepDefination.InTrustDeploymentManagerSteps.teardown(InTrustDeploymentManagerSteps.java:90)\r\n",
+              "duration": 983600,
+              "status": "failed"
+            },
+            "match": {
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"cucumber.runtime.StepDefinitionMatch.getStepName()\" because \"match\" is null\r\n\tat inTrustStepDefination.InTrustDeploymentManagerSteps.User_Open_InTrust_Deployement_Manager(InTrustDeploymentManagerSteps.java:98)\r\n\tat ✽.Initialize \"IDM\" and User Open the InTrust Deployement Manager(file:///C:/Users/vjadmin/Documents/BDD/BDD/BDD/src/test/java/features/InTrustDeployementManager.feature:7)\r\n",
+              "duration": 18003900,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Initialize \"IDM\" and User Open the InTrust Deployement Manager",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IDM",
+                  "offset": 12
+                }
+              ],
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.User_Open_InTrust_Deployement_Manager(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User Click on New button on top left corner to create the window collection",
+            "match": {
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.User_Click_on_New_Button_to_create_window_collection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User Enter Name and Description and click Next",
+            "match": {
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.User_Enter_Name_and_Description()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User Select Domain by clicking on Add then Domain and Select Domains",
+            "match": {
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.User_Select_Domain()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User Select Data Source, Repository, Server and click Next",
+            "match": {
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.User_select_datasource_repo_and_server()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User Click on Finish button",
+            "match": {
+              "location": "inTrustStepDefination.InTrustDeploymentManagerSteps.User_click_on_finish_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InTrustDeploymentManager01"
+          }
+        ]
+      }
+    ],
+    "name": "Coverage of InTrust Deployment Manager Test Cases",
+    "description": "",
+    "id": "coverage-of-intrust-deployment-manager-test-cases",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/InTrustDeployementManager.feature",
+    "tags": []
+  }
+]
